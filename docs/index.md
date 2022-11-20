@@ -25,4 +25,6 @@ features:
     title: 研究3
     details: 简介3
 ---
-
+<script setup>
+  import background from './background.vue'
+</script>
