@@ -1,0 +1,1 @@
+import{_ as t,r as a,o,c as s,e as n}from"./app.04b35b91.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"文档.md"}'),r={name:"文档.md"};function c(_,p,d,l,m,i){const e=a("Tags");return o(),s("div",null,[n(e)])}const g=t(r,[["render",c]]);export{u as __pageData,g as default};
