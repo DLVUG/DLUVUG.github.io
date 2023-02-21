@@ -1,4 +1,4 @@
-import{j as B,_ as D,r as b,o as d,c,e,w as n,k as w,d as t,b as u,F as S,l as v}from"./app.3cc891a2.js";const A={setup(){return{dialogVisible:B(!1)}},data(){return{item:0,types:["primary","success","warning","danger","info"]}},methods:{randomTypes(){return this.types[Math.floor(Math.random()*this.types.length)]}}},I={key:0},P=u("pre",{style:{"word-wrap":"break-word","white-space":"pre-wrap"}},`@article{shi2022lateral,
+import{i as B,_ as D,r as b,o as d,c,e,w as n,j as w,d as t,b as u,F as S,k as v}from"./app.3904d776.js";const A={setup(){return{dialogVisible:B(!1)}},data(){return{item:0,types:["primary","success","warning","danger","info"]}},methods:{randomTypes(){return this.types[Math.floor(Math.random()*this.types.length)]}}},I={key:0},P=u("pre",{style:{"word-wrap":"break-word","white-space":"pre-wrap"}},`@article{shi2022lateral,
 title={Lateral feature enhancement network for page object detection},
 author={Shi, Cao and Xu, Canhui and Bi, Hengyue and Cheng, Yuanzhi and Li, Yuteng and Zhang, Honghong},
 journal={IEEE Transactions on Instrumentation and Measurement},
