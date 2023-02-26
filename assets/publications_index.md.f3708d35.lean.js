@@ -1,4 +1,4 @@
-import{i as B,_ as D,r as F,o as _,c,e,w as u,j as w,d as t,F as k,b as n}from"./app.61a9bd29.js";const S={setup(){return{dialogVisible:B(!1)}},data(){return{item:0,types:["primary","success","warning","danger","info"]}},methods:{randomTypes(){return this.types[Math.floor(Math.random()*this.types.length)]}}},v={key:0},I=n("pre",{style:{"word-wrap":"break-word","white-space":"pre-wrap"}},` 
+import{i as B,_ as D,r as F,o as _,c,e,w as u,j as w,d as t,F as k,b as n}from"./app.e4376537.js";const S={setup(){return{dialogVisible:B(!1)}},data(){return{item:0,types:["primary","success","warning","danger","info"]}},methods:{randomTypes(){return this.types[Math.floor(Math.random()*this.types.length)]}}},v={key:0},I=n("pre",{style:{"word-wrap":"break-word","white-space":"pre-wrap"}},` 
 @article{shi2022lateral,
 title={Lateral feature enhancement network for page object detection},
 author={Shi, Cao and Xu, Canhui and Bi, Hengyue and Cheng, Yuanzhi and Li, Yuteng and Zhang, Honghong},
