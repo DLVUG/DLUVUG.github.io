@@ -725,8 +725,8 @@ doi ={10.15938/j.jhust.2022.06.014}
         </el-timeline-item>
         <el-timeline-item timestamp="2022" placement="top" :type="randomTypes()">
             <el-card shadow="hover">
-                <p>刘宇博,刘国柱,史操等.多视图与注意力机制结合的肺结节检测算法[J].<b>哈尔滨理工大学学报</b>,2022,27(06):115-123.</p>
-                <el-button class="button"><el-link href="/papers/students/2022 多视图与注意力机制结合的肺结节检测算法_刘宇博.pdf"
+                <p>刘宇博,刘国柱,史操等.多视图与注意力机制结合的肺结节检测算法[J].<b></b>哈尔滨理工大学学报,2022,27(06):115-123.</p>
+                <el-button class="button"><el-link href="/papers/students/2022 基于视觉和文本的多模态文档图像目标检测_李玉腾.pdf"
                         target="_blank"><el-icon>
                             <Link />
                         </el-icon>PDF</el-link></el-button>
@@ -949,7 +949,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2013-03-21" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Canhui xu, zhi Tang, Xin Tao, Cao Shi. Graph-based layout analysis for PDF documents. Proc. SPIE
                     8664, <b><em>Imaging and Printing in a Web 2.0 World IV</em></b>, 866407-1~8. March 21, 2013. ( EI )
                 </p>
@@ -966,7 +966,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2013-02-04" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Cao Shi, Jianguo Xiao, Wenhua Jia, Canhui Xu. Character Feature Integration of Chinese Calligraphy
                     and Font. Proc. SPIE 8658, <b><em>Document Recognition and Retrieval XX</em></b>, 86580M-1~8.
                     February 4, 2013. ( EI
@@ -984,7 +984,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2013-02-04" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Canhui xu, zhi Tang, Xin Tao, Cao Shi. Graphic Composite Segmentation for PDF Documents with Complex
                     Layouts. Proc. SPIE 8658, <b><em>Document Recognition and Retrieval XX</em></b>, 86580E-1~10.
                     February 4, 2013. ( EI
@@ -1002,7 +1002,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2013" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Canhui xu, zhi Tang, Xin Tao, Cao Shi. Integration of Text Information and Graphic Composite for PDF
                     Document Analysis. <b><em>The 1st CCF Conference on Natural Language Processing &
                             Chinese
@@ -1020,7 +1020,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2012" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Cao Shi, Jianguo Xiao, Wenhua Jia, Canhui Xu. Automatic Generation of Chinese Character Based on
                     Human Vision and Prior Knowledge of Calligraphy. <b><em>The 1st CCF Conference on Natural Language
                             Processing & Chinese Computing, NLPCC 2012</em></b>, Springer CCIS 333, pp.23-33. 2012. ( EI
@@ -1039,7 +1039,7 @@ doi ={10.15938/j.jhust.2022.06.014}
         </el-timeline-item>
 
         <el-timeline-item timestamp="2012" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Beiji Zou, Haoyu Zhou, Hao Chen, Cao Shi. PCNN-DDF Filter for Color Image. <b><em>Green
                             Communications and
                             Networks</em></b>, GCN 2011. 2012, 803-812.</p>
@@ -1055,7 +1055,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2012" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>史操, 邹北骥, 蔡美玲, 孟志刚, 陈再良. 自适应异步采样运动数据压缩算法. <b>电子学报
                 </b>
                     , 2012,40(1):128-133. ( EI )</p>
@@ -1072,7 +1072,7 @@ doi ={10.15938/j.jhust.2022.06.014}
         </el-timeline-item>
 
         <el-timeline-item timestamp="2012" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Canhui Xu, Weihua Gui, Chunhua Yang, Hongqiu Zhu, Yiqiu Lin, Cao Shi. Flotation Process Fault
                     Detection Using Output PDF of Bubble Size Distribution. <b><em>Minerals Engineering</em></b>. 2012,
                     26:5-12. ( SCI,
@@ -1090,7 +1090,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2012" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>K.E. Cole, P.R. Brito-Parada, Canhui Xu, S.J. Neethling, J.J. Cilliers. Experimental Studies and
                     Numerical Model Validation of Overflowing 2D Foam to Test Flotation Cell Crowder Designs.
                     <b><em>Chemical
@@ -1109,7 +1109,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2011" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Zailiang Chen, Beiji Zou, Haibing Li, Cao Shi. Extraction of Region of Interest Using Orientation
                     Feature Fusion. <b><em>Journal of Huazhong University of Science & Technology (Natural Science
                             Edition)</em></b>.
@@ -1127,7 +1127,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2011" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>陈再良, 邹北骥, 李海冰, 史操. 基于方向特征融合的感兴趣区域提取算法. <b>华中科技大学学报(自然科学版)</b>.
                     2011,39(12):102-106.电子学报</p>
                 <el-button class="button"><el-link
@@ -1143,7 +1143,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2010" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Bei-Ji Zou, Cao Shi, Can-Hui Xu, Shu Chen. Enhanced Hexagonal-Based Search Using Direction-Oriented
                     Inner Search for Motion Estimation. <b><em>IEEE Transactions on Circuits and Systems for Video
                             Technology</em></b>. 2010,20(1):156-160. ( SCI )</p>
@@ -1160,7 +1160,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2010" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Zhigang Meng, Beiji Zou, Cao Shi. Introducing Direct Interaction Mechanism of Ant Colony Foraging
                     Simulation. <b><em>2010 3rd International Conference on Computational Intelligence and Industrial
                             Application (PACIIA 2010)</em></b>, 438-442. ( EI )</p>
@@ -1175,7 +1175,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2010" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Meiling Cai, Beiji Zou, Cao Shi, Guojiang Xin, Jianfeng Li. Modeling Human Motion Based on Spline
                     Curve. <b><em>China Computer Federation Proceedings: CAD/CG' 2010</em></b>. 124-131. ( in Chinese )
                 </p>
@@ -1190,7 +1190,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2010" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>蔡美玲, 邹北骥, 史操, 辛国江, 李建峰. 基于样条曲线的人体运动建模. <b>全国第16届计算机辅助设计与图形学学术会议（CAD/CG' 2010）</b>
                     2010,7:124-131.</p>
                 <!-- <el-button class="button"><el-link href="/" target="_blank"><el-icon>
@@ -1204,7 +1204,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2010" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Kaijun Zhou, Chunhua Yang, Weihua Gui, Canhui Xu. Clustering-driven Watershed Adaptive Segmentation
                     of Bubble Image. <b><em>Journal of Central South University of Technology</em></b>. 2010, 17(5),
                     1049-1057. EI, SCI.
@@ -1221,7 +1221,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2009" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Beiji Zou, Shu Chen, Cao Shi, Umugwaneza Marie Providence. Automatic Reconstruction of 3D Human
                     Motion Pose from Uncalibrated Monocular Video Sequences Based on Markerless Human Motion Tracking.
                     <b><em>Pattern Recognition</em></b>. 2009,42(7):1559-1571.
@@ -1239,7 +1239,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2009" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Yang Chunhua, Xu Canhui, Mu Xueming and Zhou Kaijun. Bubble Size Estimation Using Interfacial
                     Morphological Information for Mineral Flotation Process Monitoring. <b><em>Transactions of
                             Nonferrous
@@ -1257,7 +1257,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2009" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Yang Chunhua, Xu Canhui, Weihua Gui, Du Jianjiang. Nonparametric Density Estimation of Bubble Size
                     Distribution for Monitoring Mineral Flotation Process. <b><em>In 48th IEEE Conference on Decision
                             and
@@ -1275,7 +1275,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2009" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>YChunhua Yang, Canhui Xu, Weihua Gui, Kaijun Zhou. Application of Highlight Removal and Multivariate
                     Image Analysis to Color Measurement of Flotation Bubble Images. <b><em>International Journal of
                             Imaging
@@ -1293,7 +1293,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2008" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>Beiji Zou, Shu Chen, Xiaoning Peng, Cao Shi. Markerless 3D Human Motion Tracking for Monocular Video
                     Sequences. <b><em>Journal of Computer-Aided Design & Computer Graphics</em></b>.
                     2008,20(8):1407-1055. (in Chinese)
@@ -1309,7 +1309,7 @@ doi ={10.15938/j.jhust.2022.06.014}
             </el-card>
         </el-timeline-item>
         <el-timeline-item timestamp="2008" placement="top" :type="randomTypes()">
-            <el-card shadow=" hover">
+            <el-card shadow="hover">
                 <p>邹北骥, 陈姝, 彭小宁, 史操. 适用于单目视频的无标记三维人体运动跟踪. <b>计算机辅助设计与图形学学报</b>. 2008,20(8):1407-1055.</p>
                 <el-button class="button"><el-link
                         href="/papers/teachers/2008 适用于单目视频的无标记三维人体运动跟踪.pdf"
