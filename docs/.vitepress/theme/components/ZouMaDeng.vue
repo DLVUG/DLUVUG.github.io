@@ -6,7 +6,7 @@ export default {
     name: 'MyCarousel',
     setup() {
         const fits = ['fill', 'contain', 'cover', 'none', 'scale-down']
-        const urls = ["/imgs/lunbotu/PDF.png", "/imgs/lunbotu/rock.jpg", "/imgs/lunbotu/retina.jpg", "/imgs/lunbotu/2.jpg", "/imgs/lunbotu/3.jpg", "/imgs/lunbotu/4.jpg", "/imgs/lunbotu/5.jpg"]
+        const urls = ["/imgs/lunbotu/PDF.png", "/imgs/lunbotu/rock.jpg", "/imgs/lunbotu/retina.jpg", "/imgs/lunbotu/knee.jpg", "/imgs/lunbotu/3.jpg", "/imgs/lunbotu/4.jpg", "/imgs/lunbotu/5.jpg"]
         const hrefs = ['PDF', 'ruangu', 'cover', 'none', 'scale-down']
         const currentIndex = ref(0);
         const items = [
@@ -86,7 +86,17 @@ export default {
         </transition>
 <!--  -->
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 3">摘要4</div>
+          <div class="index" v-if="currentIndex === 3">
+            <el-card class="box-card">   
+        <h1>膝关节软骨分割</h1>
+        <div style="text-align:center;">
+            <el-link type="danger" href="knee.html">详细内容>></el-link>
+        </div>
+                 <p>三维医学图像分割是计算机辅助诊断中的一个关键而又具有挑战性的任务。在医学图像分割中，组织与其周围环境的对比度较低会导致边界模糊。毫无疑问，边界先验信息对于图像分割至关重要。模糊的边界信息会造成分割结果的误差偏大，为了解决这一问题，研究团队从边界信息入手，将边界信息量化，使其参与到网络的学习中去。采用了医学图像分割领域常见的transformer架构，融入强大的特征学习能力和正向信息，使得研究团队提出的网络在不同数据集上的各项指标都要由于其他经典模型。</p>
+                 <p>3D volumetric medical image segmentation is a crucial yet challenging task in the computer-aided diagnosis application. Boundary ambiguity caused by low contrast between tissues and their surroundings is problematic for medical image segmentation. Undoubtedly, boundary prior information is essential for image segmentation. The fuzzy boundary information will cause a large error in the segmentation results. In order to solve this problem, we start with the boundary information and quantify the boundary information to participate in the learning of the network. We adopt the transformer architecture, which is common in the field of medical image segmentation. The powerful feature learning ability and the addition of positive information make our network perform better than other classical models on different data sets.</p>
+
+    </el-card>
+        </div>
         </transition>
         <transition name="fade">
           <div class="index" v-if="currentIndex === 4">摘要5</div>
