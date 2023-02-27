@@ -459,6 +459,103 @@ organization={IEEE}
 }
 </pre>
         </span>
+        <span v-else-if="(item == 40)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{wang2018improved,
+title={Improved skeleton extraction method considering surface feature of natural micro fractures in unconventional shale/tight reservoirs},
+author={Wang, Xin and Guo, Chaohua and He, Sheng and Jiang, Zeyun and Ma, Yongjie},
+journal={Journal of Petroleum Science and Engineering},
+volume={168},
+pages={521--532},
+year={2018},
+publisher={Elsevier}
+}
+</pre>
+        </span>
+        <span v-else-if="(item == 41)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{li2018pore,
+title={A pore-skeleton-based method for calculating permeability and capillary pressure},
+author={Li, Xinling and Jiang, Zeyun and Ma, Jingsheng and Wang, Xin},
+journal={Transport in Porous Media},
+volume={124},
+pages={767--786},
+year={2018},
+publisher={Springer}
+}
+</pre>
+        </span>
+        <span v-else-if="(item == 42)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{guo2018effect,
+title={Effect of pore structure on displacement efficiency and oil-cluster morphology by using micro computed tomography ($\mu$CT) technique},
+author={Guo, Chaohua and Wang, Xin and Wang, Hua and He, Sheng and Liu, Hong and Zhu, Peng},
+journal={Fuel},
+volume={230},
+pages={430--439},
+year={2018},
+publisher={Elsevier}
+}
+</pre>
+        </span>
+        <span v-else-if="(item == 43)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{wang2017new,
+title={A new method of fast distance transform 3D image based on “neighborhood between voxels in space” theory},
+author={Wang, Xin and Yao, Jun and Jiang, Zeyun and Zhang, Qi and Zhang, Zhen and Duan, Liya and Jia, Xinxin},
+journal={Chinese Science Bulletin},
+volume={62},
+number={15},
+pages={1662--1669},
+year={2017},
+publisher={Science in China Press}
+}
+</pre>
+        </span>
+        <span v-else-if="(item == 44)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{wang2018extraction,
+title={Extraction and identification methods of micro-fractured characteristics information in pore space of porous media based on morphological theory},
+author={Wang, X and Jiang, Z and Yao, J and others},
+journal={China Acad J Elect Publishing House},
+volume={63},
+number={5-6},
+pages={579--589},
+year={2018}
+}
+</pre>
+        </span>
+        <span v-else-if="(item == 45)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{XTYY202204008,
+author = {王广涵,程远志,史操 &amp; 许灿辉},
+title = {基于注意力机制多任务的肺结节癌变风险判断},
+journal = {计算机系统应用},
+volume = {},
+number = {117-122},
+year = {2022},
+issn = {1003-3254},
+doi ={10.15888/j.cnki.csa.008446}
+}
+
+</pre>
+        </span>
+        <span v-else-if="(item == 46)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{HLGX202206014,
+author = {刘宇博,刘国柱,史操 &amp; 许灿辉},
+title = {多视图与注意力机制结合的肺结节检测算法},
+journal = {哈尔滨理工大学学报},
+volume = {},
+number = {115-123},
+year = {2022},
+issn = {1007-2683},
+doi ={10.15938/j.jhust.2022.06.014}
+}
+
+</pre>
+        </span>
+       
 
 
     </el-dialog>
@@ -600,12 +697,40 @@ organization={IEEE}
         </el-timeline-item>
         <el-timeline-item timestamp="2022" placement="top" :type="randomTypes()">
             <el-card shadow="hover">
-                <p>李玉腾,史操,许灿辉等.基于视觉和文本的多模态文档图像目标检测[J/OL].<b><em>计算机应用研究</em></b>:1-6[2023-02-21].</p>
+                <p>李玉腾,史操,许灿辉等.基于视觉和文本的多模态文档图像目标检测[J/OL].<b>计算机应用研究</b>:1-6[2023-02-21].</p>
                 <el-button class="button"><el-link href="/papers/students/2022 基于视觉和文本的多模态文档图像目标检测_李玉腾.pdf"
                         target="_blank"><el-icon>
                             <Link />
                         </el-icon>PDF</el-link></el-button>
                 <el-button class="button" @click="(dialogVisible = true, item = 4)">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+            </el-card>
+        </el-timeline-item>
+        <el-timeline-item timestamp="2022" placement="top" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>王广涵,程远志,史操等.基于注意力机制多任务的肺结节癌变风险判断[J].<b>计算机系统应用</b>,2022,31(04):117-122.</p>
+                <el-button class="button"><el-link href="/papers/students/2022 基于注意力机制多任务的肺结节癌变风险判断_王广涵.pdf"
+                        target="_blank"><el-icon>
+                            <Link />
+                        </el-icon>PDF</el-link></el-button>
+                <el-button class="button" @click="(dialogVisible = true, item = 45)">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+            </el-card>
+        </el-timeline-item>
+        <el-timeline-item timestamp="2022" placement="top" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>刘宇博,刘国柱,史操等.多视图与注意力机制结合的肺结节检测算法[J].<b>哈尔滨理工大学学报</b>,2022,27(06):115-123.</p>
+                <el-button class="button"><el-link href="/papers/students/2022 多视图与注意力机制结合的肺结节检测算法_刘宇博.pdf"
+                        target="_blank"><el-icon>
+                            <Link />
+                        </el-icon>PDF</el-link></el-button>
+                <el-button class="button" @click="(dialogVisible = true, item = 46)">
                     <font color='LightSkyBlue'><el-icon>
                             <DocumentCopy />
                         </el-icon>Bib</font>
@@ -653,6 +778,62 @@ organization={IEEE}
                             <Link />
                         </el-icon>PDF</el-link></el-button> -->
                 <el-button class="button" @click="(dialogVisible = true, item = 35)">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+            </el-card>
+        </el-timeline-item>
+
+        <el-timeline-item timestamp="2019" placement="top" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>Xin Wang, Chaohua Guo, et al.Improved skeleton extractionmethod considering surface feature of natural micro-fractures in unconventional shale/tight reservoirs[J]. <b><em>Journal of Petroleum Science and Engineering</em></b>,2018,168:521-532.</p>
+               
+                <el-button class="button" @click="(dialogVisible = true, item = 40)">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+            </el-card>
+        </el-timeline-item>
+        <el-timeline-item timestamp="2018" placement="top" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>Li X, Jiang Z , Ma J & Wang X. A Pore-Skeleton-Based Method for Calculating Permeability and Capillary Pressure[J]. <b><em>Transport in Porous Media</em></b>, 2018,1-20.</p>
+               
+                <el-button class="button" @click="(dialogVisible = true, item = 41)">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+            </el-card>
+        </el-timeline-item>
+        <el-timeline-item timestamp="2018" placement="top" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>Chaohua Guo, Xin.Wang*. Effect of pore structure on displacement efficiency andoil-cluster morphology by using micro computed tomography(u-CT) techniquel[J]. <b><em>Fuel</em></b>,2018,230:430-439.</p>
+               
+                <el-button class="button" @click="(dialogVisible = true, item = 42)">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+            </el-card>
+        </el-timeline-item>
+        <el-timeline-item timestamp="2017" placement="top" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>Wang X, Yao J, Jiang Z Y, et al. A new method of fast distance transform 3D image based on ‘neighborhood between voxels in space’ theory[J]. <b><em>Chinese Science Bulletin</em></b>, 2017, 62: 1662-1669.</p>
+               
+                <el-button class="button" @click="(dialogVisible = true, item = 43)">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+            </el-card>
+        </el-timeline-item>
+        <el-timeline-item timestamp="2017" placement="top" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>Wang X, Jiang Z Y, Yao J, et al. Extraction and identification methods of micro-fractured characteristics information in pore spaceof porous media based on morphological theory[J]. <b><em>Chinese Science Bulletin</em></b>, 2017, 63(5-6), 579-589.</p>
+               
+                <el-button class="button" @click="(dialogVisible = true, item = 44)">
                     <font color='LightSkyBlue'><el-icon>
                             <DocumentCopy />
                         </el-icon>Bib</font>
