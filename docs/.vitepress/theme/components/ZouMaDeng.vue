@@ -6,7 +6,7 @@ export default {
     name: 'MyCarousel',
     setup() {
         const fits = ['fill', 'contain', 'cover', 'none', 'scale-down']
-        const urls = ["/imgs/lunbotu/PDF.png", "/imgs/lunbotu/rock.jpg", "/imgs/lunbotu/1.jpg", "/imgs/lunbotu/2.jpg", "/imgs/lunbotu/3.jpg", "/imgs/lunbotu/4.jpg", "/imgs/lunbotu/5.jpg"]
+        const urls = ["/imgs/lunbotu/PDF.png", "/imgs/lunbotu/rock.jpg", "/imgs/lunbotu/retina.jpg", "/imgs/lunbotu/2.jpg", "/imgs/lunbotu/3.jpg", "/imgs/lunbotu/4.jpg", "/imgs/lunbotu/5.jpg"]
         const hrefs = ['PDF', 'ruangu', 'cover', 'none', 'scale-down']
         const currentIndex = ref(0);
         const items = [
@@ -57,11 +57,15 @@ export default {
           <div class="index" v-if="currentIndex === 1"><el-card class="box-card">   <h1>岩心图像交互式分割系统</h1><div style="text-align:center;">
             <el-link type="danger" href="rock.html">详细内容>></el-link>
 </div>
-      <p>我们通过一个交互模块对2D砂岩的图像进行人机交互式的分割。在训练过程中以点击的方式进行交互式分割，所有的点击均可自动生成。经过每次的分割结果自动模拟点击下一次的误差最大的地方，在训练过程中不需要人机交互，训练之后我们将采用交互工具来修订一些存在不合理的地方的分割图像。交互工具的其流程为加载数据，进行点击分割，最后保存mask。交互工具的作用可表现为人们参与到对分割结果的补充修正的过程中进而提升分割的精准度。</p>
-      <p>We perform human-computer interactive segmentation of 2D sandstone images by means of an interactive module. The interactive segmentation is performed with clicks during the training process, and all clicks can be generated automatically. After each segmentation result the next click is automatically simulated where the error is the largest. No human-machine interaction is required during the training process, and after the training we will use the interactive tool to revise the segmented images with some unreasonable areas. The process of the interactive tool is to load the data, click on the segmentation, and finally save the mask. The interactive tool can be used to improve the accuracy of the segmentation by involving people in the process of adding corrections to the segmentation results.</p></el-card></div>
+      <p>视网膜血管分割是计算机辅助诊断眼科疾病的关键任务。不同于传统方法手工设计复杂的特征，深度学习通过卷积获取了表征性更强的特征。然而，当前的方法大都忽视了多个特征之间的内在联系，这是有问题的。为了探索非局部上下文依赖关系，我们提出了一种基于图的卷积特征聚合网络(GCFAN)，用于同时分割视网膜血管和增强图像非血管区域，它依靠图来传播和聚合跨层次特征的信息。最后，结合我们的算法构建物联网框架，对不同地点的各种眼底相机图像进行分析，并在PC和手机上同时显示结果，方便医生诊断。</p>
+      <p>Retinal vessel segmentation is a crucial task in computer assistant diagnosis of eye diseases. Instead of relying heavily on crafted features, high dimensional deep learning convolution features has provided better representation. However, the neglecting of inherent relation among multiple features is problematic. To explore non-local contextual dependencies, we proposed a graph-based convolution feature aggregation network (GCFAN) for segmenting retinal vessel and enhancing image non-vessel region simultaneously relying on graph to propagate and aggregate message of cross-level features. Finally, an IoT framework which integrates our algorithm is built to analyze image from various fundus cameras in different places and display results on PC and mobile phone simultaneously, which will facilitate doctor diagnose.</p></el-card></div>
         </transition>
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 2">摘要3</div>
+          <div class="index" v-if="currentIndex === 2"><el-card class="box-card">   <h1>视网膜眼底图像血管分割</h1><div style="text-align:center;">
+            <el-link type="danger" href="retina.html">详细内容>></el-link>
+</div>
+      <p>我们通过一个交互模块对2D砂岩的图像进行人机交互式的分割。在训练过程中以点击的方式进行交互式分割，所有的点击均可自动生成。经过每次的分割结果自动模拟点击下一次的误差最大的地方，在训练过程中不需要人机交互，训练之后我们将采用交互工具来修订一些存在不合理的地方的分割图像。交互工具的其流程为加载数据，进行点击分割，最后保存mask。交互工具的作用可表现为人们参与到对分割结果的补充修正的过程中进而提升分割的精准度。</p>
+      <p>We perform human-computer interactive segmentation of 2D sandstone images by means of an interactive module. The interactive segmentation is performed with clicks during the training process, and all clicks can be generated automatically. After each segmentation result the next click is automatically simulated where the error is the largest. No human-machine interaction is required during the training process, and after the training we will use the interactive tool to revise the segmented images with some unreasonable areas. The process of the interactive tool is to load the data, click on the segmentation, and finally save the mask. The interactive tool can be used to improve the accuracy of the segmentation by involving people in the process of adding corrections to the segmentation results.</p></el-card></div>
         </transition>
         <transition name="fade">
           <div class="index" v-if="currentIndex === 3">摘要4</div>
