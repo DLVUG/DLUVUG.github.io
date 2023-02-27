@@ -8,7 +8,7 @@
 
 ![3](./imgs/retina/3.jpg) 
 
-<style>
+<style scoped>
 p {
     text-indent: 2em;
 }
