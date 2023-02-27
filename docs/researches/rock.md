@@ -12,7 +12,7 @@ The user selects and interactively annotates a 2D image to generate a segmentati
 
 ![rock](./imgs/rock/rock.jpg)
 
-<style>
+<style scoped>
 p {
     text-indent: 2em;
 }
