@@ -1,3 +1,5 @@
+<h1>岩心图像交互式分割系统</h1>
+
 ![37830777c04670bc7b8714fbed43dc5](./imgs/rock/37830777c04670bc7b8714fbed43dc5.png)
 
 ![7f74e31c5f8ba3b1ea956db3a447a7a](./imgs/rock/7f74e31c5f8ba3b1ea956db3a447a7a.jpg)
@@ -13,5 +15,8 @@ The user selects and interactively annotates a 2D image to generate a segmentati
 <style>
 p {
     text-indent: 2em;
+}
+h1 {
+    text-align: center;
 }
 </style>
