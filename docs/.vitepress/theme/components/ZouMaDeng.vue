@@ -6,7 +6,7 @@ export default {
     name: 'MyCarousel',
     setup() {
         const fits = ['fill', 'contain', 'cover', 'none', 'scale-down']
-        const urls = ["/imgs/lunbotu/PDF.png", "/imgs/lunbotu/rock.jpg", "/imgs/lunbotu/retina.jpg", "/imgs/lunbotu/knee.jpg", "/imgs/lunbotu/3.jpg", "/imgs/lunbotu/4.jpg", "/imgs/lunbotu/5.jpg"]
+        const urls = ["/imgs/lunbotu/PDF.png", "/imgs/lunbotu/rock.jpg", "/imgs/lunbotu/retina.jpg", "/imgs/lunbotu/knee.jpg", "/imgs/lunbotu/基于空间相关性的文档对象分割.jpg", "/imgs/lunbotu/医学影像三维重建及可视化系统.png", "/imgs/lunbotu/基于图像多级信息的信息提取和预判系统.png"]
         const hrefs = ['PDF', 'ruangu', 'cover', 'none', 'scale-down']
         const currentIndex = ref(0);
         const items = [
@@ -99,13 +99,46 @@ export default {
         </div>
         </transition>
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 4">摘要5</div>
+          <div class="index" v-if="currentIndex === 4"><el-card class="box-card">   
+        <h1>基于空间相关性的文档对象分割</h1>
+        <div style="text-align:center;">
+            <el-link type="danger" href="基于空间相关性的文档对象分割.html">详细内容>></el-link>
+        </div>
+                 <p>由于布局复杂性和对象多样性，文档对象检测是一项具有挑战性的任务。大多数现有方法主要关注视觉信息，而忽略了文档对象之间具有代表性的内在空间相关关系。为了捕获结构信息和上下文依赖性，研究团队提出了一种基于空间相关关系和视觉的新型文档对象检测器。它由三部分组成：视觉特征提取网络、关系特征聚合网络和结果细化网络。视觉特征提取网络通过采用特征增强路径来增强层级特征金字塔之间的信息传播。然后，关系特征聚合网络结合了图构建模块和图学习模块。图构建模块根据区域建议的几何属性计算空间信息以编码关系信息，而图学习模块堆叠图卷积网络（GCN）层以在全局范围内聚合关系信息。视觉和关系特征都被送入结果细化网络进行特征融合和关系推理。实验数据表明本文算法在三个公开可用的数据集上能够取得较好的检测效果。</p>
+                 <p>Document object detection is a challenging task due to layout complexity and object diversity. Most of existing methods mainly focus on vision information, neglecting representative inherent spatial-related relationship among document objects. To capture structural information and contextual dependencies, we propose a novel document object detector based on spatial-related relation and vision (SRRV). It consists of three parts: vision feature extraction network, relation feature aggregation network and result refinement network. Vision feature extraction network enhances information propagation of hierarchical feature pyramid by adopting feature augmentation paths. Then, relation feature aggregation network combines graph construction module and graph learning module. Specifically, graph construction module calculates spatial information from geometric attributes of region proposals to encode relation information, while graph learning module stacks Graph Convolutional Network (GCN) layers to aggregate relation information at global scale. Both the vision and relation features are fed into result refinement network for feature fusion and relational reasoning. Experiments on the PubLayNet, POD and Article Regions datasets demonstrate that spatial relation information improves the performance with better accuracy and more precise bounding box prediction.</p>
+
+    </el-card></div>
         </transition>
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 5">摘要6</div>
+          <div class="index" v-if="currentIndex === 5"><el-card class="box-card">   
+        <h1>医学影像三维重建及可视化系统</h1>
+        <div style="text-align:center;">
+            <el-link type="danger" href="医学影像三维重建及可视化系统.html">详细内容>></el-link>
+        </div>
+                 <p>随着数字化信息时代的来临，诊断成像设备中各种先进计算机技术和数字化图像技术的应用为医学影像信息系统的发展奠定了基础。历经逾百年发展，医学影像成像技术也从最初的X射线成像发展到现在的各种数字成像技术。当下电子计算机断层扫描（CT）因作为新冠肺炎疫情中重要的诊断手段之一，也让大家认识到AI辅助医疗影像数据分析的重要性。随着人工智能技术的发展，目前技术已可以利用深度学习模型提取图像特征，完成影像分类、自动检测、图形分割、图像重建等任务。人工智能常见的应用环节是辅助诊断（影像辅助诊断、病理诊断）等。但是，目前国产医疗影像比较前沿的技术大多数处于成长期，医疗影像系统普及率也有待提高。
+研究团队基于腹腔器官病变影像的AI辅助诊断需求，研发了“医学影像处理系统”该系统可以对常见的CT图像、核磁共振图像等进行器官分割、疾病分类诊断和3D模型重建可视化工作。
+</p>
+                 <p>With the advent of the digital information era, the application of various advanced computer technologies and digital image technologies in diagnostic imaging equipment has laid the foundation for the development of medical imaging information systems. After more than a century of development, medical imaging technology has also evolved from the initial X-ray imaging to various digital imaging technologies nowadays. The current electronic computed tomography (CT) scan, as one of the important diagnostic tools in the new coronary pneumonia epidemic, has also made everyone realize the importance of AI-assisted medical image data analysis. With the development of artificial intelligence technology, the technology is now available to extract image features using deep learning models to complete tasks such as image classification, automatic detection, graphic segmentation, and image reconstruction. Common application segments of artificial intelligence are auxiliary diagnosis (image assisted diagnosis, pathology diagnosis), etc. However, most of the cutting-edge technologies of domestic medical imaging are in the formative stage, and the penetration rate of medical imaging systems has yet to be improved.
+
+Based on the demand for AI-assisted diagnosis of abdominal organ lesion images, the research team has developed the "Medical Image Processing System", which can perform organ segmentation, disease classification and 3D model reconstruction of common CT images and MRI images.
+</p>
+
+    </el-card></div>
         </transition>
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 6">摘要7</div>
+          <div class="index" v-if="currentIndex === 6"><el-card class="box-card">   
+        <h1>基于图像多级信息的信息提取和预判系统</h1>
+        <div style="text-align:center;">
+            <el-link type="danger" href="基于图像多级信息的信息提取和预判系统.html">详细内容>></el-link>
+        </div>
+                 <p>随着深度学习和人工智能行业的飞速发展，近年来，深度学习成为计算机视觉领域的研究热点，为满足领域内各任务对图像特征信息的需求，保证模型学习特征信息的有效性，其关键在于如何正确完整的提取原图像中的一种或多种多级信息，如图像的边缘信息、结构信息和纹理信息。此外，若图像有部分损坏，是否能够在最大程度上利用已知的未损坏部分图像的多级信息，正确完整的对图像的损坏区域的多级信息进行预判。图像的多级信息提取直接影响着语义分割、超分辨率和图像修复等研究领域的发展和进步。
+综上所述，研究团队研发了“基于图像多级信息的信息提取和预判系统”。该系统能够根据图像的损坏与否，提取和预判出已知图像的边缘、结构和纹理等多级信息。
+</p>
+                 <p>With the rapid development of deep learning and artificial intelligence industry, deep learning has become a research hotspot in the field of computer vision in recent years. In order to meet the demand for image feature information for various tasks in the field and ensure the effectiveness of the model to learn feature information, the key lies in how to correctly and completely extract one or more multi-level information in the original image, such as edge information, structure information and texture information of the image. In addition, if the image is partially damaged, whether the multi-level information of the damaged area of the image can be correctly and completely predicted by using the known multi-level information of the undamaged part of the image to the maximum extent. The multilevel information extraction of images directly affects the development and progress of research fields such as semantic segmentation, super-resolution and image restoration.
+In summary, the research team developed the "Information Extraction and Prediction System based on Image Multilevel Information". The system is capable of extracting or predicting multi-level information such as edge, structure and texture of known images based on the damage or not of the image.
+</p>
+
+    </el-card></div>
         </transition>
       </div>
 </template>
