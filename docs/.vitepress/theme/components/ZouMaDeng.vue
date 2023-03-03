@@ -6,7 +6,7 @@ export default {
     name: 'MyCarousel',
     setup() {
         const fits = ['fill', 'contain', 'cover', 'none', 'scale-down']
-        const urls = ["/imgs/lunbotu/PDF文档结构信息提取系统.png", "/imgs/lunbotu/岩心图像交互式分割系统.jpg", "/imgs/lunbotu/视网膜眼底图像血管分割.jpg", "/imgs/lunbotu/膝关节软骨分割.jpg", "/imgs/lunbotu/基于空间相关性的文档对象分割.jpg", "/imgs/lunbotu/医学影像三维重建及可视化系统.png", "/imgs/lunbotu/基于图像多级信息的信息提取和预判系统.png"]
+        const urls = ["/imgs/lunbotu/PDF文档结构信息提取系统.png", "/imgs/lunbotu/岩心图像交互式分割系统.jpg", "/imgs/lunbotu/视网膜眼底图像血管分割.jpg", "/imgs/lunbotu/膝关节软骨分割.jpg", "/imgs/lunbotu/基于空间信息和视觉信息的文档目标检测器.jpg", "/imgs/lunbotu/医学影像三维重建及可视化系统.png", "/imgs/lunbotu/基于图像多级信息的信息提取和预判系统.png"]
         const hrefs = ['PDF', 'ruangu', 'cover', 'none', 'scale-down']
         const currentIndex = ref(0);
         const items = [
@@ -100,9 +100,9 @@ export default {
         </transition>
         <transition name="fade">
           <div class="index" v-if="currentIndex === 4"><el-card class="box-card">   
-        <h1>基于空间相关性的文档对象分割</h1>
+        <h1>基于空间信息和视觉信息的文档目标检测器</h1>
         <div style="text-align:center;">
-            <el-link type="danger" href="基于空间相关性的文档对象分割.html">详细内容>></el-link>
+            <el-link type="danger" href="基于空间信息和视觉信息的文档目标检测器.html">详细内容>></el-link>
         </div>
                  <p>由于布局复杂性和对象多样性，文档对象检测是一项具有挑战性的任务。大多数现有方法主要关注视觉信息，而忽略了文档对象之间具有代表性的内在空间相关关系。为了捕获结构信息和上下文依赖性，研究团队提出了一种基于空间相关关系和视觉的新型文档对象检测器。它由三部分组成：视觉特征提取网络、关系特征聚合网络和结果细化网络。视觉特征提取网络通过采用特征增强路径来增强层级特征金字塔之间的信息传播。然后，关系特征聚合网络结合了图构建模块和图学习模块。图构建模块根据区域建议的几何属性计算空间信息以编码关系信息，而图学习模块堆叠图卷积网络（GCN）层以在全局范围内聚合关系信息。视觉和关系特征都被送入结果细化网络进行特征融合和关系推理。实验数据表明本文算法在三个公开可用的数据集上能够取得较好的检测效果。</p>
                  <p>Document object detection is a challenging task due to layout complexity and object diversity. Most of existing methods mainly focus on vision information, neglecting representative inherent spatial-related relationship among document objects. To capture structural information and contextual dependencies, we propose a novel document object detector based on spatial-related relation and vision (SRRV). It consists of three parts: vision feature extraction network, relation feature aggregation network and result refinement network. Vision feature extraction network enhances information propagation of hierarchical feature pyramid by adopting feature augmentation paths. Then, relation feature aggregation network combines graph construction module and graph learning module. Specifically, graph construction module calculates spatial information from geometric attributes of region proposals to encode relation information, while graph learning module stacks Graph Convolutional Network (GCN) layers to aggregate relation information at global scale. Both the vision and relation features are fed into result refinement network for feature fusion and relational reasoning. Experiments on the PubLayNet, POD and Article Regions datasets demonstrate that spatial relation information improves the performance with better accuracy and more precise bounding box prediction.</p>
