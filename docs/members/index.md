@@ -278,7 +278,13 @@ const student22 =[
   },
 
 ]
-
+const undergraduate =[  {
+    avatar: '/imgs/avatars/牟翔宇.jpg',
+    name: '牟翔宇',
+    title: '2019级',
+    desc: 'Mou Xiangyu is currently an undergraduate student pursuing a Bachelor\'s degree in the School of Information Science and Technology at Qingdao University of Science and Technology. His research interests revolve around deep learning text generation and fundamental computer algorithm research.',
+  }]
+  
 const student19 =[
   {
     avatar: '/imgs/avatars/C16-19-王广涵.jpg',
@@ -325,6 +331,14 @@ const student19 =[
     <template #lead>...</template>
     <template #members>
       <VPTeamMembers size="medium" :members="student22" />
+    </template>
+  </VPTeamPageSection>
+
+  <VPTeamPageSection>
+    <template #title>本科生</template>
+    <template #lead>...</template>
+    <template #members>
+      <VPTeamMembers size="medium" :members="undergraduate" />
     </template>
   </VPTeamPageSection>
 

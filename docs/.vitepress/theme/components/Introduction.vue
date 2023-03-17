@@ -224,6 +224,11 @@
             </div>
             <div>
                 <el-col>
+                    <el-avatar :size="100" src="/imgs/avatars/牟翔宇.jpg" />
+                </el-col>
+            </div>
+            <div>
+                <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/C16-19-王广涵.jpg" />
                 </el-col>
             </div>
