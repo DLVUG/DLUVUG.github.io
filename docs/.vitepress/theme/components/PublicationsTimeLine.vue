@@ -555,6 +555,19 @@ doi ={10.15938/j.jhust.2022.06.014}
 
 </pre>
         </span>
+        <span v-else-if="(item == 47)">
+            <pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{zhang2023hsca,
+title={HSCA-Net: A Hybrid Spatial-Channel Attention Network in Multiscale Feature Pyramid for Document Layout Analysis},
+author={Zhang, Honghong and Xu, Canhui and Shi, Cao and Bi, Hengyue and Li, Yuteng and Mian, Sami},
+journal={Journal of Artificial Intelligence and Technology},
+volume={3},
+number={1},
+pages={10--17},
+year={2023}
+}
+</pre>
+        </span>
        
 
 
@@ -562,6 +575,24 @@ doi ={10.15938/j.jhust.2022.06.014}
 
     <!-- 时间线的每个item，后续使用v-for进行完善 -->
     <el-timeline>
+        <el-timeline-item timestamp="2023" placement="top" size="large" icon="MoreFilled" :type="randomTypes()">
+            <el-card shadow="hover">
+                <p>Zhang, H., Xu, C., Shi, C., Bi, H., Li, Y., & Sami Mian. (2022). HSCA-Net: A Hybrid Spatial-Channel Attention Network in Multiscale Feature Pyramid for Document Layout Analysis. <b><em>Journal of Artificial Intelligence and Technology</em></b>, 3(1), 10–17. https://doi.org/10.37965/jait.2022.0145</p>
+                <el-button class="button"><el-link
+                        href="/papers/students/2023 HSCA-Net_张洪红.pdf"
+                        target="_blank"><el-icon>
+                            <Link />
+                        </el-icon>PDF</el-link></el-button>
+                <el-button class="button" @click="dialogVisible = true, item = 47">
+                    <font color='LightSkyBlue'><el-icon>
+                            <DocumentCopy />
+                        </el-icon>Bib</font>
+                </el-button>
+
+
+
+            </el-card>
+        </el-timeline-item>
         <el-timeline-item timestamp="2023" placement="top" size="large" icon="MoreFilled" :type="randomTypes()">
             <el-card shadow="hover">
                 <p>Cao Shi, Xin Wang, Canhui Xu. Graph-based convolution feature aggregation for enhancement of pore segmentation in mineral CT image.<b><em>15th Annual International Conference on Porous Media, InterPore2023</em></b>.</p>
