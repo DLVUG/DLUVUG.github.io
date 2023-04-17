@@ -6,7 +6,7 @@ export default {
     name: 'MyCarousel',
     setup() {
         const fits = ['fill', 'contain', 'cover', 'none', 'scale-down']
-        const urls = ["/imgs/lunbotu/PDF文档结构信息提取系统.png", "/imgs/lunbotu/岩心图像交互式分割系统.jpg", "/imgs/lunbotu/视网膜眼底图像血管分割.jpg", "/imgs/lunbotu/膝关节软骨分割.jpg", "/imgs/lunbotu/基于空间信息和视觉信息的文档目标检测器.jpg", "/imgs/lunbotu/医学影像三维重建及可视化系统.png", "/imgs/lunbotu/基于图像多级信息的信息提取和预判系统.png"]
+        const urls = ["/imgs/lunbotu/PDF文档结构信息提取系统.png", "/imgs/lunbotu/基于视觉和文本的多模态文档图像目标检测.png", "/imgs/lunbotu/岩心图像交互式分割系统.jpg", "/imgs/lunbotu/视网膜眼底图像血管分割.jpg", "/imgs/lunbotu/膝关节软骨分割.jpg", "/imgs/lunbotu/基于空间信息和视觉信息的文档目标检测器.jpg", "/imgs/lunbotu/医学影像三维重建及可视化系统.png", "/imgs/lunbotu/基于图像多级信息的信息提取和预判系统.png"]
         const hrefs = ['PDF', 'ruangu', 'cover', 'none', 'scale-down']
         const currentIndex = ref(0);
         const items = [
@@ -57,9 +57,21 @@ export default {
     </el-card>  
 </div>
         </transition>
-<!--  -->
         <transition name="fade">
 <div class="index" v-if="currentIndex === 1">
+    <el-card class="box-card">   
+        <h1>基于视觉和文本的多模态文档图像目标检测</h1>
+            <div style="text-align:center;">
+                <el-link type="danger" href="基于视觉和文本的多模态文档图像目标检测.html">详细内容>></el-link>
+            </div>
+                    <p>由于文档图像的布局复杂、目标对象尺寸分布不均匀，现有的检测算法很少考虑多模态信息和全局依赖关系，因此，提出了基于视觉和文本的多模态文档图像目标检测方法。首先探索多模态特征的融合策略，为利用文本特征，将图像中文本序列信息转换为二维表征，在文本特征和视觉特征初次融合之后，将其输入到骨干网络提取多尺度特征，并在提取过程中多次融入文本特征，实现多模态特征的深度融合；其次为保证小物体和大物体的检测精度，设计了一个金字塔网络，该网络的横向连接将上采样的特征图与自下而上生成的特征图在通道上连接，实现高层语义信息和低层特征信息的传播。在大型公开数据集PubLayNet上的实验结果表明，该方法的检测精度为95.86%，与其他检测方法相比有更高的准确率。该方法不仅实现多模态特征的深度融合，还丰富融合的多模态特征信息，具有良好的检测性能。</p>
+                    <p>The layout of document images was complex and distribution of object sizes was uneven. Currently, most of detection methods ignored multimodal information and global dependencies. Therefore, this paper proposed a multimodal document object detection method based on vision and text. Firstly, this method explored the fusion strategy of multimodal features. In order to utilize textual features, this paper converted text sequence information of the image into two-dimensional representation. After the initial fusion of text features and visual features, backbone network took the fused features as input to extract multiscale features, and this paper repeatedly integrated textual features during the extraction process, so as to realize deep fusion of multimodal features. Next, to ensure the detection accuracy of small and large objects, this paper designed a pyramid network. The lateral connection could concatenate feature maps of the same spatial size from the bottom-up pathway and the top-down pathway in channel, so as to achieve the propagation between high-level semantic information and low-level feature information. The experimental results on large public dataset PubLayNet show that the detection accuracy of this method reaches 95.86%, and it has a higher accuracy than other methods. This method not only realizes the deep fusion of multimodal features, but also enriches the fused multimodal feature information, and it has good detection performance.</p>
+    </el-card>  
+</div>
+        </transition>
+<!--  -->
+        <transition name="fade">
+<div class="index" v-if="currentIndex === 2">
     <el-card class="box-card">   
         <h1>岩心图像交互式分割系统</h1>
             <div style="text-align:center;">
@@ -72,7 +84,7 @@ export default {
         </transition>
 <!--  -->
         <transition name="fade">
-<div class="index" v-if="currentIndex === 2">
+<div class="index" v-if="currentIndex === 3">
     <el-card class="box-card">   
         <h1>视网膜眼底图像血管分割</h1>
         <div style="text-align:center;">
@@ -86,7 +98,7 @@ export default {
         </transition>
 <!--  -->
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 3">
+          <div class="index" v-if="currentIndex === 4">
             <el-card class="box-card">   
         <h1>膝关节软骨分割</h1>
         <div style="text-align:center;">
@@ -99,7 +111,7 @@ export default {
         </div>
         </transition>
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 4"><el-card class="box-card">   
+          <div class="index" v-if="currentIndex === 5"><el-card class="box-card">   
         <h1>基于空间信息和视觉信息的文档目标检测器</h1>
         <div style="text-align:center;">
             <el-link type="danger" href="基于空间信息和视觉信息的文档目标检测器.html">详细内容>></el-link>
@@ -110,7 +122,7 @@ export default {
     </el-card></div>
         </transition>
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 5"><el-card class="box-card">   
+          <div class="index" v-if="currentIndex === 6"><el-card class="box-card">   
         <h1>医学影像三维重建及可视化系统</h1>
         <div style="text-align:center;">
             <el-link type="danger" href="医学影像三维重建及可视化系统.html">详细内容>></el-link>
@@ -126,7 +138,7 @@ Based on the demand for AI-assisted diagnosis of abdominal organ lesion images, 
     </el-card></div>
         </transition>
         <transition name="fade">
-          <div class="index" v-if="currentIndex === 6"><el-card class="box-card">   
+          <div class="index" v-if="currentIndex === 7"><el-card class="box-card">   
         <h1>基于图像多级信息的信息提取和预判系统</h1>
         <div style="text-align:center;">
             <el-link type="danger" href="基于图像多级信息的信息提取和预判系统.html">详细内容>></el-link>
