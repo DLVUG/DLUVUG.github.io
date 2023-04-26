@@ -757,7 +757,7 @@ year={2023}
         <el-timeline-item timestamp="2022" placement="top" :type="randomTypes()">
             <el-card shadow="hover">
                 <p>刘宇博,刘国柱,史操等.多视图与注意力机制结合的肺结节检测算法[J].<b></b>哈尔滨理工大学学报,2022,27(06):115-123.</p>
-                <el-button class="button"><el-link href="/papers/students/2022 基于视觉和文本的多模态文档图像目标检测_李玉腾.pdf"
+                <el-button class="button"><el-link href="/papers/students/2022 多视图与注意力机制结合的肺结节检测算法_刘宇博.pdf"
                         target="_blank"><el-icon>
                             <Link />
                         </el-icon>PDF</el-link></el-button>
