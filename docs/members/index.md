@@ -114,7 +114,7 @@ const student21 =[
     avatar: '/imgs/avatars/王翔.jpg',
     name: '王翔',
     title: '2021级',
-	desc: 'My name is Xiang Xang.I am a Postgraduate student majoring in SE in QUST.I love gaming(like Snooker offline, LOL on-line), programming(like Python, Cplusplus, lua and nothing else) and sleeping most and regard peace as my destination.',
+	desc: 'My name is Xiang Wang.I am a Postgraduate student majoring in SE in QUST.I love gaming(like Snooker offline, LOL on-line), programming(like Python, Cplusplus, lua and nothing else) and sleeping most and regard peace as my destination.',
 
   },
   {
