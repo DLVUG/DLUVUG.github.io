@@ -198,12 +198,12 @@ const student22 =[
     title: '2022级',
 	desc: 'Zhengyi Yuan received B.E. degree from Qingdao University of Science and Technology in 2021.Now he is a Master student majoring in Software Engineering degree at Qingdao University of Science and Technology,under the supervision of Ph.D. CaoShi. He research interests include deep learning, computer vision, image processing.',
   },
-  {
-    avatar: '/imgs/avatars/张栋.jpg',
-    name: '张栋',
-    title: '2022级',
-	desc: 'Dong Zhang received B.E. degree from XiHua University in 2021. Now he is  a Master student majoring in Computer technology degree at Qingdao University of Science and Technology,under the supervision of Ph.D. Canhui Xu. His research interests include deep learning, computer vision, image processing.',
-  },
+  // {
+  //   avatar: '/imgs/avatars/张栋.jpg',
+  //   name: '张栋',
+  //   title: '2022级',
+	// desc: 'Dong Zhang received B.E. degree from XiHua University in 2021. Now he is  a Master student majoring in Computer technology degree at Qingdao University of Science and Technology,under the supervision of Ph.D. Canhui Xu. His research interests include deep learning, computer vision, image processing.',
+  // },
   {
     avatar: '/imgs/avatars/谢彧.jpg',
     name: '谢彧',
