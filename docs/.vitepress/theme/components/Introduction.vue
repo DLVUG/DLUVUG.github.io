@@ -84,11 +84,11 @@
                     <el-avatar :size="100" src="/imgs/avatars/袁正一.jpg" />
                 </el-col>
             </div>
-            <div>
+            <!-- <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/张栋.jpg" />
                 </el-col>
-            </div>
+            </div> -->
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/谢彧.jpg" />
