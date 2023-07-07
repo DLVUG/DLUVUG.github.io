@@ -10,6 +10,15 @@ async function config() {
     ignoreDeadLinks: true,
     lastUpdated: true,
     themeConfig: {
+      search: {
+        provider: "algolia",
+        options: {
+          appId: "RER4HPYJ96",
+          apiKey: "0d88192de1bdf25ed61d438a173e1993",
+          indexName: "dlvugio",
+        },
+      },
+
       logo: "/imgs/logo.png",
       siteTitle: "DLVUG",
       nav,

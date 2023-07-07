@@ -12,7 +12,6 @@
     "markdown-it": "^13.0.1",
     "patch-package": "^6.5.0",
     "sass": "^1.56.1",
-    "vitepress-plugin-search": "^1.0.4-alpha.17",
     "vue": "^3.2.45"
   },
   "scripts": {
@@ -29,7 +28,7 @@
     "prismjs": "^1.29.0",
     "tsparticles-engine": "^2.5.2",
     "tsparticles-slim": "^2.5.3",
-    "vitepress": "^1.0.0-alpha.47",
+    "vitepress": "^1.0.0-beta.5",
     "vue3-particles": "^2.5.3"
   },
   "repository": "https://github.com/YQisme/DLVUG.github.io.git",
