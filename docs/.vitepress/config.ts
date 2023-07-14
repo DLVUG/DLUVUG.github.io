@@ -4,6 +4,20 @@ import { nav } from "./config/nav";
 import { sidebar } from "./config/sidebar";
 async function config() {
   return {
+    head: [
+      [
+        "script",
+        {
+          async: true,
+          src: "https://www.googletagmanager.com/gtag/js?id=G-RYDMDXBQY4",
+        },
+      ],
+      [
+        "script",
+        {},
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-RYDMDXBQY4');",
+      ],
+    ],
     title: "DLVUG",
     titleTemplate: "深度学习与视觉理解团队",
     description: "Deep Learning and Vision Understanding Group",
