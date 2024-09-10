@@ -24,16 +24,17 @@ const coreMembers = [
     desc: 'Canhui Xu received her Ph.D. degree from Central South University, China, in 2011. She is currently working in the School of Information Science and Technology, Qingdao University of Science and Technology, China. She was a postdoctoral research fellow at Peking University from 2012 to 2014. She was a visiting scholar at Arizona State University, USA, from 2019 to 2020, and a visiting Ph.D. student at Imperial Collage London, UK, from 2009 to 2010. Her research interests include deep learning, document layout analysis and image understanding.',
 
   },
-]
-
-const tutorsOthers = [
-  {
+    {
     avatar: '/imgs/avatars/王鑫.jpg',
     name: '王鑫',
     title: '指导老师',
     desc: 'Wang Xin received his Ph.D. degree from China University of Petroleum, China, in 2013. Currently working as Associate Professor for School of Information Science and Technology, Qingdao University of Science and Technology, China. He was the director of Pore-scale Imaging Lab in Qingdao City from 2017 to 2020, also a doctoral supervisor of Graduate School of International Studies, Shandong Academy of Sciences in 2018-2020. He was a visiting scientist at Imperial Collage London, Herriot-Watt University and Far East Branch Russian Academy of Sciences. He participated in the National Joint-Scientific Expedition team with Russia and Japan in the year of 2016 and 2017. His research interests include 2D&3D image processing，computer vision & artificial intelligence.',
 
   },
+]
+
+const tutorsOthers = [
+
     {
     avatar: '/imgs/avatars/程远志.jpg',
     name: '程远志',
@@ -309,7 +310,11 @@ const student19 =[
     <template #lead>...</template>
   </VPTeamPageTitle>
   <VPTeamMembers size="medium" :members="coreMembers" />
+  
+  <!--
   <VPTeamMembers size="medium" :members="tutorsOthers" />  
+  -->
+
   <VPTeamPageSection>
     <template #title>20级研究生</template>
     <template #lead>...</template>
@@ -342,6 +347,7 @@ const student19 =[
     </template>
   </VPTeamPageSection>
 
+  <!--
   <VPTeamPageSection>
     <template #title>毕业研究生</template>
     <template #lead>...</template>
@@ -349,4 +355,6 @@ const student19 =[
       <VPTeamMembers size="medium" :members="student19" />
     </template>
   </VPTeamPageSection>
+  -->
+
 </VPTeamPage>

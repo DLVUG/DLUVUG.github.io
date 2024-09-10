@@ -20,12 +20,14 @@
                     <div align="center"><strong>王鑫</strong></div>
                 </el-col>
             </div>
+        <!--
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/程远志.jpg" />
                     <div align="center"><strong>程远志</strong></div>
                 </el-col>
             </div>
+        -->
         </el-row>
         
         <!-- 第二行，7人 -->
@@ -60,15 +62,16 @@
                     <el-avatar :size="100" src="/imgs/avatars/王翔.jpg" />
                 </el-col>
             </div>
+
+        </el-row>     
+        
+        <!-- 第三行，7人 -->
+        <el-row :gutter="60" justify="center">
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/陈文达.jpg" />
                 </el-col>
             </div>
-        </el-row>     
-        
-        <!-- 第三行，8人 -->
-        <el-row :gutter="60" justify="center">
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/邱海韬.jpg" />
@@ -104,16 +107,17 @@
                     <el-avatar :size="100" src="/imgs/avatars/王鑫02-22-刘艳霞.jpg" />
                 </el-col>
             </div>
+
+        </el-row>
+
+        <!-- 第四行，6人 -->
+
+        <el-row :gutter="60" justify="center"> 
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/王鑫03-22-张英琦.jpg" />
                 </el-col>
             </div> 
-        </el-row>
-
-        <!-- 第四行，7人 -->
-        <el-row :gutter="60" justify="center"> 
-
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/王鑫04-22-牛力国.jpg" />
@@ -139,6 +143,7 @@
                     <el-avatar :size="100" src="/imgs/avatars/王鑫08-21-赵相欣.jpg" />
                 </el-col>
             </div>
+            <!--
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/C01-20-潘英杰.jpg" />
@@ -149,9 +154,11 @@
                     <el-avatar :size="100" src="/imgs/avatars/C02-20-王烨楠.jpg" />
                 </el-col>
             </div>
+            -->
         </el-row>
 
         <!-- 第五行，8人 -->
+        <!-- 
         <el-row :gutter="60" justify="center">
             <div>
                 <el-col>
@@ -194,8 +201,11 @@
                 </el-col>
             </div>
         </el-row>
+        -->
 
+        
         <!-- 第六行，7人 -->
+        <!--
         <el-row :gutter="60" justify="center">
             <div>
                 <el-col>
@@ -238,6 +248,7 @@
                 </el-col>
             </div>
         </el-row>
+        -->
 
     </div>
     <div class="box-card">
