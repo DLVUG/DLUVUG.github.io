@@ -33,16 +33,16 @@ const coreMembers = [
   },
 ]
 
-const tutorsOthers = [
-
-    {
-    avatar: '/imgs/avatars/程远志.jpg',
-    name: '程远志',
-    title: '指导老师',
-    desc: 'Yuanzhi Cheng received the Ph.D. degree from the Harbin Institute of Technology, Harbin, China. He was with the School of Computer Science and Technology, Harbin Institute of Technology, until 2020. He is currently a professor with the School of Information Science and Technology, Qingdao University of Science and Technology, Qingdao, China. His research interests include pattern recognition, image processing, and computer-assisted surgical system.',
-
-  },
-]
+//const tutorsOthers = [
+//
+//    {
+//    avatar: '/imgs/avatars/程远志.jpg',
+//    name: '程远志',
+//    title: '指导老师',
+//    desc: 'Yuanzhi Cheng received the Ph.D. degree from the Harbin Institute of Technology, Harbin, China. He was with the School of Computer Science and Technology, Harbin Institute of Technology, until 2020. He is currently a professor with the School of Information Science and Technology, Qingdao University of Science and Technology, Qingdao, China. His research interests include pattern recognition, image processing, and computer-assisted surgical system.',
+//
+//  },
+//]
 
 const student20 =[
   {
@@ -74,32 +74,35 @@ const student20 =[
     desc: 'Chongchong Li received B.E. degree from Zaozhuang University in 2014. Now he is a Master student majoring in Computer technology degree at Qingdao University of Science and Technology,under the supervision of Ph.D. Cao Shi. His research interests include deep learning, computer vision, image processing.',
   },
 
-  {
-    avatar: '/imgs/avatars/C01-20-潘英杰.jpg',
-    name: '潘英杰',
-    title: '2020级',
-    desc: 'Yingjie Pan is currently working for a master\'s degree in the School of Information Science and Technology, Qingdao University of Science and Technology. His research interests include deep learning，computer vision, medical image registration.',
-  },
 
-  {
-    avatar: '/imgs/avatars/C02-20-王烨楠.jpg',
-    name: '王烨楠',
-    title: '2020级',
-    desc: 'Yenan Wang is currently studying for her master\'s degree in the College of Information Science and Technology at Qingdao University of Science and Technology in Qingdao, China. Her main research field is medical image processing, and the specific research direction is the classification and localization of chest radiographs.',
-  },
+  //{
+  //  avatar: '/imgs/avatars/C01-20-潘英杰.jpg',
+  //  name: '潘英杰',
+  //  title: '2020级',
+  //  desc: 'Yingjie Pan is currently working for a master\'s degree in the School of Information Science and Technology, Qingdao University of Science and Technology. His research interests include deep learning，computer vision, medical image registration.',
+  //},
 
-  {
-    avatar: '/imgs/avatars/C03-20-黄长见.jpg',
-    name: '黄长见',
-    title: '2020级',
-    desc: 'Changjian Huang graduated from the Zhongyuan University of Technology in 2019 with an engineering degree. Now he is a postgraduate student in software engineering at Qingdao University of Science and Technology, and his tutor is Professor Yuanzhi Cheng. His research interests include deep learning, computer vision, and medical image processing.',
-  },
-  {
-    avatar: '/imgs/avatars/C04-20-刘豪.jpg',
-    name: '刘豪',
-    title: '2020级',
-    desc: 'Liu Hao, an outstanding graduate of Changchun University of Technology in 2020, received a bachelor\'s degree in engineering. Now he is a Master student majoring in Computer Science and Technology degree at Qingdao University of Science and Technology, under the guidance of Professor Cheng Yuanzhi. His research interests include deep learning, computer vision, and medical image segmentation.',
-  },
+  //{
+  //  avatar: '/imgs/avatars/C02-20-王烨楠.jpg',
+  //  name: '王烨楠',
+  //  title: '2020级',
+  //  desc: 'Yenan Wang is currently studying for her master\'s degree in the College of Information Science and Technology at Qingdao University of Science and Technology in Qingdao, China. Her main research field is medical image processing, and the specific research direction is the classification and localization of chest radiographs.',
+  //},
+
+  //{
+  //  avatar: '/imgs/avatars/C03-20-黄长见.jpg',
+  //  name: '黄长见',
+  //  title: '2020级',
+  //  desc: 'Changjian Huang graduated from the Zhongyuan University of Technology in 2019 with an engineering degree. Now he is a postgraduate student in software engineering at Qingdao University of Science and Technology, and his tutor is Professor Yuanzhi Cheng. His research interests include deep learning, computer vision, and medical image processing.',
+  //},
+
+  //{
+  //  avatar: '/imgs/avatars/C04-20-刘豪.jpg',
+  //  name: '刘豪',
+  //  title: '2020级',
+  //  desc: 'Liu Hao, an outstanding graduate of Changchun University of Technology in 2020, received a bachelor\'s degree in engineering. Now he is a Master student majoring in Computer Science and Technology degree at Qingdao University of Science and Technology, under the guidance of Professor Cheng Yuanzhi. His research interests include deep learning, computer vision, and medical image segmentation.',
+  //},
+
 
 ]
 
@@ -154,42 +157,49 @@ const student21 =[
     title: '2021级',
 	desc: 'QiJie Huang is currently working toward the M.S. degree with the School of Information Science and Technology, Qingdao University of Science and Technology, under the supervision of Prof. Wang Xin. His research interests include deep learning, computer vision,and 3D mineral reconstruction.',
   },
-  {
-    avatar:  '/imgs/avatars/C05-21-赵东.jpg',
-    name: '赵东',
-    title: '2021级',
-	desc: 'Dong Zhao is currently pursuing the M.S. degree with School of Information Science and Technology, Qingdao University of Science and Technology, under the supervision of Prof. Yuanzhi Cheng. His research interests include deep learning, computer vision, medical image segmentation and Marine organism classification.',
-  },
-  {
-    avatar:  '/imgs/avatars/C06-21-王南南.jpg',
-    name: '王南南',
-    title: '2021级',
-	desc: 'Nannan Wang is currently pursuing the M.S. degree with School of Information Science and Technology, Qingdao University of Science and Technology. His research interests include deep learning, medical image segmentation and tumor segmentation.',
-  },
-  {
-    avatar:  '/imgs/avatars/C07-21-任玉涛.jpg',
-    name: '任玉涛',
-    title: '2021级',
-	desc: 'Yutao Ren received his bachelor\'s degree from Qingdao University of Science and Technology in 2021. Now he is studying for a master\'s degree in electronic information from Qingdao University of Science and Technology. His tutor is Professor Yuanzhi Cheng. His professional knowledge is mainly in deep learning. His main research directions include computer vision and medical image segmentation.',
-  },
-  {
-    avatar:  '/imgs/avatars/C08-21-胡帅.jpg',
-    name: '胡帅',
-    title: '2021级',
-	desc: 'Shuai Hu graduated from Qingdao University of Science and Technology in 2020 and is now a master student in computer science and technology at Qingdao University of Science and Technology, under the supervision of Ph.D. Yuanzhi Cheng. His research interests include deformable image registration, image processing and medical image segmentation.',
-  },
-  {
-    avatar:  '/imgs/avatars/C09-21-李忠昊.jpg',
-    name: '李忠昊',
-    title: '2021级',
-	desc: 'Zhonghao Li received his Bachelor of Science degree from Hohai University. He is now a master student of Computer Science and Technology in Qingdao University of Science and Technology under the supervision of Professor Yuanzhi Cheng. His research focuses on deep learning, specifically medical image segmentation.',
-  },
-  {
-    avatar:  '/imgs/avatars/C10-21-于生正.jpg',
-    name: '于生正',
-    title: '2021级',
-	desc: 'Shengzheng Yu received B.E. degree from Qufu Normal University in 2021. Now, he is a Master student majoring in Electronic Information in Qingdao University of Science &Technology, under the supervision of Prof. Yuanzhi Cheng. His reserach interests include computer vision, Marine organism classification and recognition, medical image segmentation and so on.',
-  },
+  
+  
+  //{
+  //  avatar:  '/imgs/avatars/C05-21-赵东.jpg',
+  //  name: '赵东',
+  //  title: '2021级',
+	//desc: 'Dong Zhao is currently pursuing the M.S. degree with School of Information Science and Technology, Qingdao University of Science and Technology, under the supervision of Prof. Yuanzhi Cheng. His research interests include deep learning, computer vision, medical image segmentation and Marine organism classification.',
+  //},
+
+  //{
+  //  avatar:  '/imgs/avatars/C06-21-王南南.jpg',
+  //  name: '王南南',
+  //  title: '2021级',
+	//desc: 'Nannan Wang is currently pursuing the M.S. degree with School of Information Science and Technology, Qingdao University of Science and Technology. His research interests include deep learning, medical image segmentation and tumor segmentation.',
+  //},
+  
+  //{
+  //  avatar:  '/imgs/avatars/C07-21-任玉涛.jpg',
+  //  name: '任玉涛',
+  //  title: '2021级',
+	//desc: 'Yutao Ren received his bachelor\'s degree from Qingdao University of Science and Technology in 2021. Now he is studying for a master\'s degree in electronic information from Qingdao University of Science and Technology. His tutor is Professor Yuanzhi Cheng. His professional knowledge is mainly in deep learning. His main research directions include computer vision and medical image segmentation.',
+  //},
+
+  //{
+  //  avatar:  '/imgs/avatars/C08-21-胡帅.jpg',
+  //  name: '胡帅',
+  //  title: '2021级',
+	//desc: 'Shuai Hu graduated from Qingdao University of Science and Technology in 2020 and is now a master student in computer science and technology at Qingdao University of Science and Technology, under the supervision of Ph.D. Yuanzhi Cheng. His research interests include deformable image registration, image processing and medical image segmentation.',
+  //},
+
+  //{
+  //  avatar:  '/imgs/avatars/C09-21-李忠昊.jpg',
+  //  name: '李忠昊',
+  //  title: '2021级',
+	//desc: 'Zhonghao Li received his Bachelor of Science degree from Hohai University. He is now a master student of Computer Science and Technology in Qingdao University of Science and Technology under the supervision of Professor Yuanzhi Cheng. His research focuses on deep learning, specifically medical image segmentation.',
+  //},
+  
+  //{
+  //  avatar:  '/imgs/avatars/C10-21-于生正.jpg',
+  //  name: '于生正',
+  //  title: '2021级',
+	//desc: 'Shengzheng Yu received B.E. degree from Qufu Normal University in 2021. Now, he is a Master student majoring in Electronic Information in Qingdao University of Science &Technology, under the supervision of Prof. Yuanzhi Cheng. His reserach interests include computer vision, Marine organism classification and recognition, medical image segmentation and so on.',
+  //},
 ]
 
 const student22 =[
@@ -243,40 +253,40 @@ const student22 =[
   },
 
 
-  {
-    avatar: '/imgs/avatars/C11-22-王子轩.jpg',
-    name: '王子轩',
-    title: '2022级',
-	desc: 'Zixuan Wang, graduated from Qingdao University of Science and Technology in 2022. He is continuing to do the M.S. degree at the same university. He is majoring in computer technology under the supervision of Ph.D. Yuanzhi Cheng. His research domains include deep learning, computer vision and image processing.',
-  },
+  //{
+  //  avatar: '/imgs/avatars/C11-22-王子轩.jpg',
+  //  name: '王子轩',
+  //  title: '2022级',
+	//desc: 'Zixuan Wang, graduated from Qingdao University of Science and Technology in 2022. He is continuing to do the M.S. degree at the same university. He is majoring in computer technology under the supervision of Ph.D. Yuanzhi Cheng. His research domains include deep learning, computer vision and image processing.',
+  //},
 
-  {
-    avatar: '/imgs/avatars/C12-22-朱庚鑫.jpg',
-    name: '朱庚鑫',
-    title: '2022级',
-	desc: 'Gengxin Zhu received B.E. degree from Qingdao University of Science and Technology in 2022.Now he is a Master student majoring in Computer technology degree at Qingdao University of Science and Technology. His research interests include deep learning, computer vision, image processing.',
-  },
+  //{
+  //  avatar: '/imgs/avatars/C12-22-朱庚鑫.jpg',
+  //  name: '朱庚鑫',
+  //  title: '2022级',
+	//desc: 'Gengxin Zhu received B.E. degree from Qingdao University of Science and Technology in 2022.Now he is a Master student majoring in Computer technology degree at Qingdao University of Science and Technology. His research interests include deep learning, computer vision, image processing.',
+  //},
 
-  {
-    avatar: '/imgs/avatars/C13-22-许浩天.jpg',
-    name: '许浩天',
-    title: '2022级',
-	desc: 'Haotian Xv Received B.E. degree from Yantai University in 2021, and now he is a Master student majoring in Computer technology degree at Qingdao University of Science and Technology,under the supervision of Ph.D. Yuanzhi Cheng. His research interests include computer vision and deep learing.',
-  },
+  //{
+  //  avatar: '/imgs/avatars/C13-22-许浩天.jpg',
+  //  name: '许浩天',
+  //  title: '2022级',
+	//desc: 'Haotian Xv Received B.E. degree from Yantai University in 2021, and now he is a Master student majoring in Computer technology degree at Qingdao University of Science and Technology,under the supervision of Ph.D. Yuanzhi Cheng. His research interests include computer vision and deep learing.',
+  //},
 
-  {
-    avatar: '/imgs/avatars/C14-22-马春帅.jpg',
-    name: '马春帅',
-    title: '2022级',
-	desc: 'Chunshuai Ma Received B.E. degree from Qingdao University of Science and Technology in 2022. Now he is a Master student majoring in Computer technology degree at Qingdao University of Science and Technology, under the supervision of Ph.D. Yuanzhi Cheng. His research interests include computer vision and deep learing.',
-  },
+  //{
+  //  avatar: '/imgs/avatars/C14-22-马春帅.jpg',
+  //  name: '马春帅',
+  //  title: '2022级',
+	//desc: 'Chunshuai Ma Received B.E. degree from Qingdao University of Science and Technology in 2022. Now he is a Master student majoring in Computer technology degree at Qingdao University of Science and Technology, under the supervision of Ph.D. Yuanzhi Cheng. His research interests include computer vision and deep learing.',
+  //},
 
-  {
-    avatar: '/imgs/avatars/C15-22-谢培栋.jpg',
-    name: '谢培栋',
-    title: '2022级',
-	desc: 'Peidong Xie is currently studying in the School of Information Science and Technology at Qingdao University of Science and Technology for his master\'s degree, under the supervision of Yuanzhi Cheng. His research interests include deep learning and image processing.',
-  },
+  //{
+  //  avatar: '/imgs/avatars/C15-22-谢培栋.jpg',
+  //  name: '谢培栋',
+  //  title: '2022级',
+	//desc: 'Peidong Xie is currently studying in the School of Information Science and Technology at Qingdao University of Science and Technology for his master\'s degree, under the supervision of Yuanzhi Cheng. His research interests include deep learning and image processing.',
+  //},
 
 ]
 const undergraduate =[  {
