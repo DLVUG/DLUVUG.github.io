@@ -17,7 +17,7 @@
             <div>
                 <el-col>
                     <el-avatar :size="100" src="/imgs/avatars/王鑫.jpg" />
-                    <div align="center"><strong>_王_test_鑫_</strong></div>
+                    <div align="center"><strong>_王_*-*_鑫_</strong></div>
                 </el-col>
             </div>
         <!--
